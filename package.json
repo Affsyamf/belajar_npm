@@ -4,6 +4,7 @@
   "description": "belajar npm",
   "main": "App.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Affsyamf/belajar_npm/issues"
   },
-  "homepage": "https://github.com/Affsyamf/belajar_npm#readme"
+  "homepage": "https://github.com/Affsyamf/belajar_npm#readme",
+  "dependencies": {
+    "validator": "^13.15.15"
+  }
 }
